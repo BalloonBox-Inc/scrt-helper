@@ -8,7 +8,8 @@ This is a simple module intended to help with development on the SECRET Network.
 - Node
 - A compiled WASM smart contract
 
-**note**
+### **Note**
+
 The current contract in the contract folder is based on this repo: https://github.com/BalloonBox-Inc/SCRTSibyl-Contract and this UI: https://github.com/BalloonBox-Inc/scrt-network-oracle-client. If you change the contract, you'll also need to change the contents in the transactions in this repo, depending on your contract.
 
 ### 1. Install Dependencies
