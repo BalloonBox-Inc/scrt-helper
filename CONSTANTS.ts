@@ -1,4 +1,4 @@
-export const TESTNET_URL = "http://testnet.securesecrets.org:1317/";
+export const TESTNET_URL = "https://api.pulsar.griptapejs.com/";
 
 export const CUSTOM_FEES = {
   upload: {
