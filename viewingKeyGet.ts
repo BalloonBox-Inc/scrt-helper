@@ -36,8 +36,7 @@ const main = async () => {
     const getScoreMsg = {
       read: {
         key: VIEWING_KEY?.viewingKey,
-        // address: "secret1d0wh9mrpyjf88jthae8a0m0rmaj8kxj9hpgewu", // any account can make this query
-        address: "secret1d0wh9mrpyjf88jthae8a0m0rmaj8kxj9hpgewu", // any account can make this query
+        address: accAddress, // any account can make this query
       },
     };
     let query_response = await client.queryContractSmart(

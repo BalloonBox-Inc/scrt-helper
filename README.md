@@ -35,7 +35,7 @@ const WASM = fs.readFileSync("./contract/contract.wasm");
 
 ## 4. Upload and Initiate your contract
 
-Run `yarn go` to upload and initiate your contract
+Run `yarn upload` to upload and initiate your contract
 
 ## 5. Generate a permit query
 
@@ -56,7 +56,7 @@ echo '{
             "value": {
                 "permit_name": "test",
                 "allowed_tokens": [
-                    "secret17zt6efqat4hxzzfrm6mzazt9n50y70xdqsvmpp" //replace
+                    "secret1njdjxk5swuxnuqfzf44pt5xrdyvgyqt0e7j75q" 
                 ],
                 "permissions": ["balance"]
             }
